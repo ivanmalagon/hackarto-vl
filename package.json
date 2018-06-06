@@ -4,15 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --config dev.config.js --watch"
   },
   "contributors": [
     {
       "name": "Ivan Malagon"
-    }, {
+    },
+    {
       "name": "Ramiro Aznar"
-    }, {
+    },
+    {
       "name": "Paloma Rudiño"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0"
+  }
 }
