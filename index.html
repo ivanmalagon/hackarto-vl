@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Hackarto VL</title>
+  <title>Madrid Commuting Patterns</title>
   <meta name="description" content="Hackarto VL">
 
   <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sunflower:500,700" rel="stylesheet">
   <script src="https://libs.cartocdn.com/carto-vl/v0.5.0-beta.2/carto-vl.js"></script>
   <script src="https://libs.cartocdn.com/mapbox-gl/v0.45.0-carto1/mapbox-gl.js"></script>
   <link href="https://libs.cartocdn.com/mapbox-gl/v0.45.0-carto1/mapbox-gl.css" rel="stylesheet" />
@@ -17,6 +19,12 @@
   <main>
     <div id="map"></div>
   </main>
+  <aside>
+    <h1>MADRID COMMUTING PATTERNS</h1>
+    <p>Click on the different postal codes to watch how people go from their <i class="homes">homes</i> to their workplaces in Madrid.</p>
+    <p id="cp"></p>
+    <p id="formula"></p>
+  </aside>
   <script src="./dist/bundle.js"></script>
 </body>
 </html>
